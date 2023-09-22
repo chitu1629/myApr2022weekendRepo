@@ -11,7 +11,7 @@ pool: chitra
 steps:
 - task: Maven@3
   inputs:
-    mavenPomFile: '/MyWebApp/pom.xml'
+    mavenPomFile: 'MyWebApp/pom.xml'
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package'

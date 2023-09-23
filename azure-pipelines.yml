@@ -6,7 +6,7 @@
 trigger:
 - main
 
-pool: chitra
+pool: pipeline-task
   
 steps:
 - task: Maven@3
